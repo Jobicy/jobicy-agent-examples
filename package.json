@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "node src/cli.js",
+    "tools": "node src/cli.js tools",
+    "jobs": "node src/cli.js jobs",
+    "company": "node src/cli.js company",
+    "career": "node src/cli.js career",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/cli.js && node --check src/client.js && node --check src/scenarios.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "name": "jobicy-agent-examples",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Build AI job search assistants with the official Jobicy MCP server: runnable examples for jobs, companies and career guides.",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jobicy/jobicy-agent-examples.git"
+  }
+}
